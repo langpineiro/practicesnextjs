@@ -4,7 +4,7 @@ import Navigation from '@/components/Navigation';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'My App',
+  title: 'Softplay Company',
   description: 'My first next app',
 }
 
@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="es">
       <body className={inter.className}>
         <Navigation/>
         {children}
