@@ -10,7 +10,7 @@ const page = async() => {
   const data = await fetchData();
   return (
     <>
-         <h1>INDEX PAGE</h1>
+         <h1 className='text-sky-400 text-center my-10'>OUR EMPLOYEES</h1>
          <Users data={data}/>
     </>
     
