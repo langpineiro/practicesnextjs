@@ -20,6 +20,7 @@ const page = () => {
             <Image
               className="h-48 w-full object-cover md:h-full md:w-48"
               src={imagenFarmacia}
+              priority={true}
               alt="sistema de farmacias"
             />
           </div>
@@ -37,6 +38,7 @@ const page = () => {
             <Image
               className="h-48 w-full object-center md:h-full md:w-48"
               src={imagenInventario}
+              priority={true}
               alt="sistema de farmacias"
             />
           </div>
@@ -54,6 +56,7 @@ const page = () => {
             <Image
               className="h-48 w-full object-center md:h-full md:w-48"
               src={imagenTienda}
+              priority={true}
               alt="sistema de farmacias"
             />
           </div>
@@ -71,6 +74,7 @@ const page = () => {
             <Image
               className="h-50 w-full object-center md:h-full md:w-48"
               src={imagenCRM}
+              priority={true}
               alt="sistema de farmacias"
             />
           </div>
